@@ -1,62 +1,108 @@
-🚀 Employees Workshop Data Dashboard
-📊 Data Visualization & Analytics for Employee Training and Demographics
-Turning raw HR & training data into actionable insights.
+ 📊 Employees & Workshops Data Dashboard  
 
-________________________________________
-✨ Key Features
-•	Interactive Power BI Dashboards for employee master data and workshop analytics.
-•	Track total workshops conducted, participants, costs, and participation rate.
-•	Visualize employee demographics: count, age distribution, gender, marital status.
-•	Drill down by year, course, department, job grade, or supplier.
-•	Cost analysis by supplier and salary trends by month.
-________________________________________
-📑 Table of Contents
-1.	Overview
-2.	Installation & Setup
-3.	Usage
-4.	Screenshots
-5.	Roadmap
-6.	License
-7.	Contact
-________________________________________
-📜 Overview
-This project uses Power BI to transform HR and training datasets into an interactive, insightful dashboard.
-It enables decision-makers to monitor training investments, employee development trends, and organizational demographics in real time.
-________________________________________
-⚙️ Installation & Setup
-1.	Clone this repository
-git clone https://github.com/jainkanika09/employees-workshop-dashboard.git
-cd employees-workshop-dashboard
-2.	Install Power BI Desktop (if not already installed)
-o	Download here
-3.	Open the .pbix file in Power BI Desktop.
-4.	Update data source paths to match your local file structure.
-________________________________________
-▶️ Usage
-•	Open the .pbix file.
-•	Use slicers to filter by year, employee, or course.
-•	Hover over charts for tooltips with detailed metrics.
+An interactive **Power BI dashboard** analyzing employee demographics, salaries, and workshop training data to derive meaningful insights for HR and management decision-making.  
 
-•	Example filters:
-plaintext
-Year = 2019
-Supplier = "Excel Experts"
-Course = "Advanced Excel"
-•	View updated KPIs in real time.
-________________________________________
-📸 Screenshots
-Workshop Data Dashboard https://github.com/Jainkanika09/Employees-Workshop-Data-Analysis/blob/main/Employee%20workshop%20data.png
-Employees Master Data Dashboard https://github.com/Jainkanika09/Employees-Workshop-Data-Analysis/blob/main/Employees%20Master%20Data.png
-________________________________________
-✅ Roadmap
-•	Add predictive analytics for training ROI
-•	Integrate with live HR database
-•	Automate report refresh
-________________________________________
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-________________________________________
-📬 Contact
-Author: Kanika Jain
-Email: kanjain09@gmail.com
-GitHub: https://github.com/Jainkanika09
+![Dashboard Screenshot 1](Screenshot%202025-08-09%20145020.png)  
+![Dashboard Screenshot 2](Screenshot%202025-08-09%20145052.png)  
+
+---
+
+## 📂 Project Overview  
+This project visualizes and analyzes **two datasets**:  
+1. **Employees Master Data** – Employee demographics, salaries, marital status, job grades, and hiring information.  
+2. **Workshops Data** – Details of workshops conducted, costs, suppliers, and participation statistics.  
+
+The dashboard provides **insights into workforce structure** and **training program efficiency**, enabling data-driven HR strategies.  
+
+---
+
+## 📑 Features & Insights  
+
+### 👨‍💼 **Employees Dashboard**
+- **Total Employees:** 50  
+- **Total Salary:** ₹123K  
+- **Married Employees:** 23  
+- **Unmarried Couples:** 27  
+- **Male Count:** 29  
+- **Salary Analysis:** By month, department, and job grade.  
+- **Average Age by Department** for better workforce planning.  
+
+### 🎓 **Workshops Dashboard**
+- **Total Workshops Conducted:** 47  
+- **Total Participants:** 1,216  
+- **Participation Rate:** 24.32%  
+- **Total Training Cost:** ₹2M  
+- **Cost Breakdown:** By course type and supplier.  
+- **Monthly Cost Trend Analysis** for budget monitoring.  
+
+---
+
+## 📊 Tools & Technologies  
+- **Data Visualization:** Power BI  
+- **Data Cleaning & Processing:** Excel  
+- **Dataset:** `Employees and Workshops data.xlsx` (included)  
+- **Visuals:** Interactive slicers, bar charts, line charts, KPI cards, and tables.  
+
+---
+
+## 📂 Dataset Description  
+
+### **Employees Master Data**  
+| Column Name | Description |
+|---------------------|-------------|
+| EmployeeID | Unique employee identifier |
+| Name | Employee full name |
+| Gender | Male/Female |
+| Marital Status | Married/Single |
+| Job Grade | Admin, Management, Operations |
+| Salary | Monthly salary (₹) |
+| Hire Date | Date of joining |
+| Department | Sales, HR, Logistics, etc. |
+| Age | Employee age |
+
+### **Employees Workshop Data**  
+| Column Name | Description |
+|---------------------|-------------|
+| Course Name | Training/workshop title |
+| Supplier | Training provider |
+| Cost | Total cost of training |
+| Year | Year of training |
+| Month | Month of training |
+| Participants | Number of attendees |
+
+---
+
+## 📷 Dashboard Highlights  
+
+### **Employees Overview**  
+- Salary distribution by **Month Name** shows peak payout in December.  
+- **Average Age** across departments is between 38–42 years.  
+- Admin role accounts for the **highest salary expenditure**.  
+
+### **Workshops Overview**  
+- **Advanced Excel** and **Communication Workshop** have the highest training costs.  
+- Most expensive supplier: **Communication Experts**.  
+- Training participation rate suggests scope for improving engagement.  
+
+---
+
+## 🚀 How to Use This Project  
+1. Download the repository.  
+2. Open the `.pbix` file in **Power BI Desktop**.  
+3. Load `Employees and Workshops data.xlsx`.  
+4. Explore dashboards with interactive filters.  
+
+---
+
+## 📌 Future Enhancements  
+- Add employee performance metrics post-training.  
+- Integrate live HR data from SQL database.  
+- Build predictive models for attrition & training ROI.  
+
+---
+
+## 📜 License  
+This project is for educational and portfolio purposes. You may modify and adapt it for personal use.  
+
+---
+💡 *Created by [Kanika Jain] as part of a Data Analytics portfolio.*
