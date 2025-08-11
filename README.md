@@ -4,7 +4,8 @@ An interactive **Power BI dashboard** analyzing employee demographics, salaries,
 
 ![Dashboard Screenshot 1](https://github.com/Jainkanika09/Employees-Workshop-Data-Analysis/blob/main/Employee%20Master%20Data.png)
 
-![Dashboard Screenshot 2](Screenshot%202025-08-09%20145052.png)  
+![Dashboard Screenshot 2](https://github.com/Jainkanika09/Employees-Workshop-Data-Analysis/blob/main/Employee%20workshop%20data.png)
+
 
 ---
 
