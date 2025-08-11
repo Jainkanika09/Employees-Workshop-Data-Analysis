@@ -2,7 +2,8 @@
 
 An interactive **Power BI dashboard** analyzing employee demographics, salaries, and workshop training data to derive meaningful insights for HR and management decision-making.  
 
-![Dashboard Screenshot 1](Screenshot%202025-08-09%20145020.png) 
+![Dashboard Screenshot 1](https://github.com/Jainkanika09/Employees-Workshop-Data-Analysis/blob/main/Employee%20Master%20Data.png)
+
 ![Dashboard Screenshot 2](Screenshot%202025-08-09%20145052.png)  
 
 ---
